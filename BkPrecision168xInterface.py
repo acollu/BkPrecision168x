@@ -175,7 +175,7 @@ class BkPrecision168xSerialLink():
 
     # Reads a given number of bytes (bufferDepth) from the serial interface
     def ReadBuffer(self, readbufferDepth): 
-        int(readBufferDepth)
+        int(readbufferDepth)
         t = 0.
         while t < self.timeout:
             numBytesAvailable = self.ser.inWaiting()
