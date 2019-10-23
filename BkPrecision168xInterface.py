@@ -2,7 +2,7 @@ import serial
 import subprocess
 import time
 
-# All voltages in [V] - output voltage settable range 0.8A:18A - resolution 0.1V
+# All voltages in [V] - output voltage settable range 0.8V:18V - resolution 0.1V
 # All currents in [A] - output current settable range 0A-20A - resolution 0.1V
 
 class BkPrecision168xInterface():
